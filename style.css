@@ -46,24 +46,6 @@ section {
 .se1 {
     background-color: #1d6533;
 }
-.nosh {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.imge {
-    max-width: 1100px;
-    border: #fff 1px solid;
-}
-.rara {
-    font-size: 50px;
-    text-decoration: none;
-    color: #000;
-    padding: 20px 30px;
-    background-color: #fff;
-    border-radius: 100%;
-    margin-left: 20px;
-}
 .ti {
     display: flex;
     justify-content: center;
@@ -139,14 +121,11 @@ section {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 @media (max-width: 1023px) {
     .ab a {
         font-size: 16px;
         padding: 0 10px;
-    }
-    .imge {
-        max-width: 900px;
-        border: #fff 1px solid;
     }
     .sd {
         width: 100%;
@@ -186,24 +165,12 @@ section {
     .imgimg {
         width: 55px;
     }
-    .nosh {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .rara {
-        margin-left: 20px;
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 768px) {
     .ab a {
         font-size: 14px;
         padding: 0 5px;
-    }
-    .imge {
-        max-width: 600px;
-        border: #fff 1px solid;
     }
     .sd {
         padding: 15px;
@@ -239,14 +206,6 @@ section {
     .imgimg {
         width: 50px;
     }
-    .nosh {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .rara {
-        margin-left: 20px;
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 480px) {
@@ -256,10 +215,6 @@ section {
     }
     .sd {
         padding: 10px;
-    }
-    .imge {
-        max-width: 350px;
-        border: #fff 1px solid;
     }
     .s h2 {
         font-size: 20px;
@@ -292,11 +247,11 @@ section {
     .imgimg {
         width: 30px;
     }
-    .nosh {
-        flex-direction: column;
+    *{
+        text-align: center;
+        align-items: center;
         justify-content: center;
-    }
-    .rara {
-        transform: scale(0.5);
+        width: 90%;
+        margin: auto;
     }
 }
