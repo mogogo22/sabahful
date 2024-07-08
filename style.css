@@ -11,9 +11,6 @@ body {
 }
 header {
     background-color: rgb(255, 251, 0);
-    background-image: url(img/Whats.png);
-    background-position: center;
-    background-size: cover;
     position: fixed;
     z-index: 999;
     opacity: 90%;
@@ -29,14 +26,13 @@ section {
 }
 .se1 {
     background-color: #1d6533;
-    color: #fff;
 }
 .ti {
     display: flex;
     justify-content: center;
-    color: rgb(0, 171, 238);
+    color: #fff;
     text-transform: uppercase;
-    font-family: system-ui;
+    font-family: "Reem Kufi", sans-serif;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
@@ -62,9 +58,12 @@ section {
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
     padding: 50px 10px;
     border-radius: 10px;
+    background-image: url(img/titled.png);
+    background-position: center;
+    background-size: cover;
 }
 .cha {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     width: 700px;
     display: flex;
     align-items: center;
@@ -101,7 +100,7 @@ section {
     align-items: center;
 }
 .info h3 {
-    color: #0083b7;
+    color: #000;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -112,7 +111,7 @@ section {
     font-weight: 600;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ff0000;
+    color: #00bf20;
 }
 .imgimg {
     border-radius: 100px;
