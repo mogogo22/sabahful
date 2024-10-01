@@ -9,6 +9,29 @@ body {
     height: 100vh;
     color: #fff;
 }
+.mota{
+    font-size: 30px;
+    color: #000;
+    text-shadow: 
+    2px 2px 0px #fff,   /* الحواف السفلية اليسرى */
+    -2px -2px 0px #fff,  /* الحواف العلوية اليمنى */
+    -2px 2px 0px #fff,  /* الحواف السفلية اليمنى */
+    2px -2px 0px #fff; /* الحواف العلوية اليسرى */
+    font-weight: bold;
+    animation: blink 1s ease-in-out infinite;
+}
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
+
 header {
     background-color: rgb(255, 251, 0);
     position: fixed;
